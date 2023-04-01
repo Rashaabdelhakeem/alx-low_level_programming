@@ -1,4 +1,4 @@
-putchar
+#include <stdio.h>
 
 /**
  * _islower - checks for lower character
