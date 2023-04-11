@@ -1,4 +1,4 @@
-
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -71,10 +71,7 @@ char **strtow(char *str)
 			start = i;
 	}
 
-ix[k] = NULL;
+	matrix[k] = NULL;
 
 	return (matrix);
 }
-
-
-
